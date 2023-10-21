@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+:root {
+    --familia-da-fonte: 'Inter', sans-serif;
+    --tamanho-da-fonte: 24px;
+    --peso-da-fonte: 700;
+
+    /* cores */
+    --vermelho: #FF0000;
+    --azul-claro: #2D9ABC;
+    --azul-fosco: #0B545E;
+    --azul: #5041FF;
+    --laranja: #FF5C00;
+    --branco: #fff;
+    --preto: #000;
+    --cinza: #7B7B7B;
+    --verde: #48AB19;
+    --roxo: #582358;
+    --amarelo: #FFD703;
+}

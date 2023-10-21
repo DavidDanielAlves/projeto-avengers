@@ -1,0 +1,132 @@
+@import url('./variaveis.css');
+@import url('./backgrouds.css');
+@import url('./background-descricao.css');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.logo-vingadores {
+    text-align: center;
+}
+
+.logo-vingadores img {
+    width: 500px;
+}
+
+.container-personagem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-descricao-personagem {
+    background-color: var(--preto);
+    color: var(--branco);
+    width: 600px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+    border-radius: 15px;
+}
+
+.p-img {
+    display: flex;
+    align-items: end;
+}
+
+.icone-personagem {
+    width: 60px;
+    height: 60px;
+    align-self: flex-end;
+}
+
+.botoes-personagens {
+    background-color: var(--preto);
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.imagem-personagem {
+    width: 550px;
+    height: 550px;
+}
+
+.imagem-personagem-thor {
+    width: 600px;
+    height: 550px;
+}
+
+.imagem-personagem-gaviao-arqueiro,
+.imagem-personagem-viuva-negra {
+    width: 400px;
+}
+
+.botao-personagem {
+    border: none;
+    background: none;
+    border-radius: 100%;
+}
+
+.container-simbolo-gaviao {
+    border-radius: 100px;
+    width: 100px;
+    height: 60px;
+    background-color: var(--cinza);
+}
+
+.ativo {
+    border: 10px solid var(--branco);
+}
+
+.homem-de-ferro {
+    background-color: var(--vermelho);
+}
+
+.capitao-america {
+    background-color: var(--azul-claro);
+}
+
+.thor {
+    background-color: var(--laranja);
+}
+
+.viuva-negra {
+    background-color: var(--roxo);
+}
+
+.gaviao-arqueiro {
+    background-color: var(--cinza);
+}
+
+.hulk {
+    background-color: var(--verde);
+}
+
+.background-capitao-america {
+    background-color: var(--azul);
+}
+
+.background-thor {
+    background-color: var(--azul-fosco);
+}
+
+.background-gaviao-arqueiro {
+    background-color: var(--roxo);
+}
+
+.background-hulk {
+    background-color: var(--amarelo);
+}
+
+.hidden {
+    display: none;
+}
+

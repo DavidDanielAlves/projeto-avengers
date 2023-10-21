@@ -1,0 +1,23 @@
+[data-novo-background="background-homem-de-ferro"] {
+    background-color: var(--vermelho);
+}
+
+[data-novo-background="background-capitao-america"] {
+    background-color: var(--azul-claro);
+}
+
+[data-novo-background="background-thor"] {
+    background-color: var(--laranja);
+}
+
+[data-novo-background="background-viuva-negra"] {
+    background-color: var(--roxo);
+}
+
+[data-novo-background="background-gaviao-arqueiro"] {
+    background-color: var(--cinza);
+}
+
+[data-novo-background="background-hulk"] {
+    background-color: var(--verde);
+}
